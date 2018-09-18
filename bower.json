@@ -1,0 +1,7 @@
+{
+  "name": "portfolio",
+  "dependencies": {
+    "speakingurl": "^10.0.0",
+    "showdown": "^1.4.0"
+  }
+}

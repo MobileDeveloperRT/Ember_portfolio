@@ -1,0 +1,6 @@
+{{#if image.gallery.showImageFilenames}}
+  <div class="content filename">{{image.filenameWithoutExtension}}</div>
+{{/if}}
+{{#unless (ui-blank image.description)}}
+  {{markdown-convert content=image.description class='content markdown'}}
+{{/unless}}

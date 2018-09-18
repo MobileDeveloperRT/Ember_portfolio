@@ -1,0 +1,20 @@
+@import "variables.less";
+@import "markdown.less";
+
+#content-padding {
+  padding: 40px 40px 40px @frontend-menu-width + 20px;
+  @media @tablet {
+    padding: 10px 20px;
+  }
+  @media @mobile {
+    padding: 10px 0;
+  }
+}
+
+.ui-frontend {
+  .frontend-font;
+  @import "body.less";
+  @import "standalone.less";
+  @import "menu.less";
+  @import "content.less";
+}
